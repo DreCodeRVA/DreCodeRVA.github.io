@@ -1,0 +1,202 @@
+body{
+    background-color:#333;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:5px;
+}
+
+h1{
+    font-size:30px !important;
+    text-align:center;
+}
+
+h2{
+    font-size:25px !important;
+    margin-top:5px; 
+}
+
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color:coral;
+    color:#333;
+    text-align:center;
+}
+
+
+#navbar{
+    background-color:#333;
+    color:#fff;
+    text-align:center;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:#333;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+    text-align: center;
+    background-color:#fff;
+    padding:10px 15px;
+    border:none;
+    transition: .5s;
+}
+
+#navbar a:hover{
+    background-color:coral;
+    color:#333; 
+    transform:scale(1.3);
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 2;
+}
+
+.active {
+    background-color:coral !important;
+    color:#333 !important;
+  }
+
+#showcase h1{
+    color:#333;
+    font-size:50px;
+    line-height: 1.6em;
+    padding-top:30px;
+}
+
+.image{
+    text-align:center;
+}
+
+#main{
+    background-color:#333;
+    color:#fff;
+    font-size:25px;
+    padding:0 30px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+#main-footer{
+    background-color:coral;
+    color:#333;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/*jobs*/
+
+#football{
+    transition:.5s;
+    text-align:center;
+}
+#football:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 1;
+}
+ 
+#basketball{
+    transition:.5s;
+    text-align:center;
+}
+#basketball:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 1;
+}
+
+#popeyes{
+    transition:.5s;
+    text-align:center;
+}
+#popeyes:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 1;
+}
+
+#robotics{
+    transition:.5s;
+    text-align:center;
+}
+#robotics:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 1;
+}
+#boats{
+    transition:.5s;
+    text-align:center;
+}
+#boats:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 1;
+}
+
+#grass{
+    transition:.5s;
+    text-align:center;
+}
+#grass:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 1;
+}
+
+.imgbx{
+    height: 300px;
+    width: 300px;
+    margin-top:5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.content{
+    height:300px;
+    width:300px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color:coral;
+}
+
+.content2{
+    height:300px;
+    width:300px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #333;
+}
+
+/*contact*/
+
+#contact{
+    text-align:center;
+    font-size:25px;
+}
+
+#contact a{
+    text-decoration:none;
+    color:#fff;
+}
+
+#contact a:hover{
+    text-decoration:none;
+    color:coral;
+}
